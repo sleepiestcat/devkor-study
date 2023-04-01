@@ -66,6 +66,7 @@ const checkGuess = () => {
 
   guesses.textContent += userGuess + ' ';
 
+  // TO DO..!
   if (userGuess === randomNumber) {
     collect();
   } 
